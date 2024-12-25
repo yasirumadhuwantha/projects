@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <input id="input" readonly placeholder="Calculator">
+        <div class="number">
+            <div class="1">
+                <button onclick="button('7')">7</button>
+                <button onclick="button('8')">8</button>
+                <button onclick="button('9')">9</button>
+                <button onclick="button('/')" class="buttonP">÷</button>
+            </div>
+            <div class="2">
+                <button onclick="button('4')">4</button>
+                <button onclick="button('5')">5</button>
+                <button onclick="button('6')">6</button>
+                <button onclick="button('*')" class="buttonP">×</button>
+            </div>
+            <div class="3">
+                <button onclick="button('1')">1</button>
+                <button onclick="button('2')">2</button>
+                <button onclick="button('3')">3</button>
+                <button onclick="button('-')" class="buttonP">-</button>
+            </div>
+            <div class="4">
+                <button onclick="inputClear()" class="buttonCE">CE</button>
+                <button onclick="button('0')">0</button>
+                <button onclick="button('.')">.</button>
+                <button onclick="button('+')" class="buttonP">+</button>
+            </div>
+            <div class="x5">
+                <button onclick="calculate()" class="buttonE">=</button>
+                <P>Productive <span style="color: lightblue;">Workspace</span></P>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
