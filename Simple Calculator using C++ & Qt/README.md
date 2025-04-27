@@ -1,1 +1,1 @@
-This is, Simple Calculator using C++ & Qt
+This is Simple Calculator using C++ & Qt
