@@ -1,0 +1,790 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <title>YASIRU MADHUWANTHA</title>
+  <link rel="icon" type="image/x-icon" href="favicon-32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer"/>
+  <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind CSS Custom Scripts -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'resume-dark': '#2c3e50',
+            'resume-accent': '#3498db',
+            'resume-light': '#ecf0f1'
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- JavaScript Styles -->
+  <style>
+    * {
+      font-family: 'Domine', sans-serif;
+    }
+    
+    @keyframes skillLoad {
+      from { width: 0; }
+      to { width: var(--tw-style-width); }
+    }
+
+    @keyframes skillLoad {
+      from { width: 0; }
+    }
+
+    @media print {
+      .resume { 
+        flex-direction: row !important; 
+        max-width: none !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+      }
+      .sidebar { width: 35% !important; }
+      .main-content { width: 65% !important; }
+    }
+  </style>
+</head>
+
+
+
+<body class="bg-resume-dark lg:bg-gray-100">
+
+  <!-- Resume Section -->
+  <div class="resume flex flex-col lg:flex-row max-w-6xl mx-auto my-4 lg:my-8 bg-resume-dark lg:bg-white shadow-2xl rounded-lg overflow-hidden">
+    
+    <!-- Basic Information - Left Section -->
+    <div class="sidebar w-full lg:w-1/3 bg-resume-dark text-white p-6">
+
+      <div class="text-center mb-6">
+      <div class="group w-24 h-24 mx-auto bg-resume-accent rounded-full flex items-center justify-center text-3xl mb-4">
+      <i class="fas fa-rocket group-hover:scale-150 group-hover:rotate-12 transition-all duration-300 ease-out"></i>
+      </div>
+
+      <h1 class="text-2xl font-bold">YASIRU MADHUWANTHA</h1>
+      <h2 class="text-lg text-resume-accent">Web Developer</h2>
+      </div>
+
+
+      <!-- About Me -->
+      <div class="mb-6">
+      <h3 class="text-xl font-semibold text-resume-accent mb-2">About Me</h3>
+      <p class="text-sm">Engineering student with a passion for innovation and creativity. Skilled in graphic design, web design, and computer programming. Demonstrates a strong work ethic, excellent problem-solving skills, and a commitment to continuous learning and professional growth.</p>
+      </div>
+
+      
+      <!-- Contact -->
+      <div class="mb-6">
+      <h3 class="text-xl font-semibold text-resume-accent mb-2">Contact</h3>
+      <ul class="text-sm space-y-1">
+
+        <li class="py-0.5 lg:hover:text-resume-accent group">
+          <a href="tel:+94757675618" class="flex items-center">
+            <i class="fas fa-phone mr-2 transition-transform duration-300"></i>
+            <span class="transition-transform duration-300">0757675618</span>
+          </a>
+        </li>
+
+        <li class="py-0.5 lg:hover:text-resume-accent group">
+          <a href="tel:+94787978618" class="flex items-center">
+            <i class="fas fa-phone mr-2 transition-transform duration-300"></i>
+            <span class="transition-transform duration-300">0787978618</span>
+          </a>
+        </li>
+
+        <li class="py-0.5 lg:hover:text-resume-accent group">
+          <a href="https://maps.app.goo.gl/MaFAS66R7NZZWztq7" class="flex items-center">
+            <i class="fas fa-map-marker-alt mr-2 transition-transform duration-300"></i>
+            <span class="transition-transform duration-300">&nbsp;Beliatta, Sri Lanka</span>
+          </a>
+        </li>
+
+        <li class="py-0.5 lg:hover:text-resume-accent group">
+          <a href="mailto:yasiru@madhuwantha.com" class="flex items-center">
+            <i class="fas fa-envelope mr-2 transition-transform duration-300"></i>
+            <span class="transition-transform duration-300">yasiru@madhuwantha.com</span>
+          </a>
+        </li>
+
+        <li class="py-0.5 lg:hover:text-resume-accent group">
+          <a href="https://www.yasirumadhuwantha.com" target="_blank" class="flex items-center">
+            <i class="fas fa-home mr-2 transition-transform duration-300"></i>
+            <span class="transition-transform duration-300">www.yasirumadhuwantha.com</span>
+          </a>
+        </li>
+
+      </ul>
+      </div>
+
+
+      <!-- Languages -->
+      <div class="mb-6">
+      <h3 class="text-xl font-semibold text-resume-accent mb-2">Languages</h3>
+      <ul class="text-sm space-y-1">
+
+        <li class="py-0.5 group flex items-center lg:hover:text-resume-accent">
+          <i class="far fa-dot-circle mr-1 transition-transform duration-300"></i>
+          <span class="transition-transform duration-300">Sinhala ( Primary )</span>
+        </li>
+
+        <li class="py-0.5 group flex items-center lg:hover:text-resume-accent">
+          <i class="far fa-dot-circle mr-1 transition-transform duration-30"></i>
+          <span class="transition-transform duration-300">English ( Secondary )</span>
+        </li>
+
+      </ul>
+      </div>
+
+
+      <!-- Expertise -->
+      <div class="mb-6">
+      <h3 class="text-xl font-semibold text-resume-accent mb-2">Expertise</h3>
+      <ul class="text-sm space-y-1">
+
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Management Skills</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Creative & Innovative Skills</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Problem Solving Skills</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Time Management Skills</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Research Expertise</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Presentation Competency</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Project Management Skills</li>
+
+      </ul>
+      </div>
+
+
+      <!-- Industrial Skills -->
+      <div class="mb-6">
+      <h3 class="text-xl font-semibold text-resume-accent mb-2">Industrial Skills</h3>
+      <ul class="text-sm space-y-1">
+          
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Graphic Designing</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Website Designing</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Video Editing</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> PCB Designing</li>
+        <li class="py-0.5 lg:hover:text-resume-accent group"><i class="far fa-dot-circle transition-transform duration-300"></i> Coding</li>
+
+      </ul>
+      </div>
+
+
+      <!-- Follow Me -->
+      <div class="lg:block mb-6">
+       
+      <h3 class="text-xl font-semibold text-resume-accent mb-2">Follow Me</h3>
+      <div class="grid grid-cols-4 gap-x-2 gap-y-3 place-items-start">
+          
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/wgyasiru" target="_blank">
+            <i class="fab fa-facebook-f bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/yasiru.madhuwantha" target="_blank">
+            <i class="fab fa-instagram bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- Pinterest -->
+        <a href="https://www.pinterest.com/yasirumadhuwantha" target="_blank">
+            <i class="fab fa-pinterest bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/yasirumadhuwantha" target="_blank">
+            <i class="fab fa-linkedin-in bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- Github -->
+        <a href="https://www.github.com/yasirumadhuwantha" target="_blank">
+            <i class="fab fa-github bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- Behance -->
+        <a href="https://www.behance.net/yasirumadhuwantha" target="_blank">
+            <i class="fab fa-behance bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- Twitter -->
+        <a href="https://www.twitter.com/yasziru" target="_blank">
+            <i class="fab fa-twitter bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- Medium -->
+        <a href="https://medium.com/@yasiru-madhuwantha" target="_blank">
+            <i class="fab fa-medium-m bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- Reddit -->
+        <a href="https://www.reddit.com/user/yasirumadhuwantha" target="_blank">
+            <i class="fab fa-reddit-alien bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+        <!-- Dribbble -->
+        <a href="https://dribbble.com/yasirumadhuwantha" target="_blank">
+            <i class="fab fa-dribbble bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex justify-center items-center text-2xl transition-transform duration-300 hover:scale-125"></i>
+        </a>
+
+      </div>
+      </div>
+      
+    </div>
+
+
+
+    <!-- Main Content - Right Section -->
+    <div class="main-content w-full lg:w-2/3 p-6 bg-resume-dark lg:bg-gray-300 text-white lg:text-black">
+      
+      <!-- Courses -->
+      <!-- Large -->
+      <div class="hidden lg:block mb-6">
+       
+      <h3 class="group text-xl font-semibold text-resume-accent lg:text-resume-dark mb-4 flex items-center">
+      <i class="fas fa-book bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex items-center justify-center mr-3 text-2xl group-hover:scale-150 group-hover:-translate-x-1 transition-transform duration-500"></i>Courses</h3>
+      <ul class="list-none list-inside text-sm space-y-1">
+        
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Diploma in English - SET Academy ( 2024 Feb - 2024 Sep )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Diploma in Information Technology - SET Academy ( 2024 Feb - 2024 Sep )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Diploma in Microsoft Office - SLT eSiphala / Oracle Academy ( 2024 – 2025 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Spoken English Cetificate Course - Trinity English Language Training Academy ( 2024 – 2025 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> <a href="https://drive.google.com/file/d/1x-IStkhfrzDZnnYnvbm8Cb50hG6rOiK9/view?usp=sharing" target="_blank" class="text-blue-600 hover:no-underline">Preliminary English Certificate Course 🡥</a> - Academy of English Studies ( 2024 Dec 02 – 2025 Jan 22 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> <a href="https://drive.google.com/file/d/1aGupOdFyhydh5zThPhc_htXikvWHfRGx/view?usp=sharing" target="_blank" class="text-blue-600 hover:no-underline">Advanced English Certificate Course 🡥</a> - Academy of English Studies ( 2025 Feb – 2025 Mar )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Professional Graphic Design Certificate Course - SLT eSiphala / Oracle Academy ( 2024 – 2025 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Adobe Illustrator Certificate Course - Academy of Graphics ( 2024 – 2025 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> <a href="https://drive.google.com/file/d/1zft5niGoVxgRiDsv6WNmlDFMrf8a1czP/view?usp=sharing" target="_blank" class="text-blue-600 hover:no-underline">Web Design for Beginners Certificate Course 🡥</a> - University of Moratuwa ( 2024 – 2025 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> <a href="https://www.pirple.com/certificates/u4sabdbgjf" target="_blank" class="text-resume-accent hover:no-underline">Front End Fundamental Certificate Course 🡥</a> - Pirple ( 2024 Feb 12 - 2024 Apr 12 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> C & Java Programming Course - Chaagaa Education ( 2024–2025 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> <a href="https://coursera.org/share/8e55d8b4f407545aef0fa2b98a568c11" target="_blank" class="text-blue-600 hover:no-underline">Business Analysis Certificate Course 🡥</a> - Coursera Project Network ( 2025 Jan 12 - 2025 Feb 01 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> <a href="https://coursera.org/share/b48d1d50d359477501572e7dd5d80a2c" target="_blank" class="text-blue-600 hover:no-underline">Industrial Risk Management Certificate Course 🡥</a> - Coursera Project Network ( 2025 Feb 12 – Mar 18 )</li>
+        <li class="py-0.5 hover:py-2 hover:pl-2 hover:border-l-[6px] hover:rounded-md border-transparent hover:border-black hover:bg-gray-200 transform hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> <a href="https://www.coursera.org/account/accomplishments/certificate/Q6L250KPVN0H" target="_blank" class="text-blue-600 hover:no-underline">Tailwind CSS Certificate Course 🡥</a> - Packt Publishers via Coursera ( 2024 Oct 12 – 2025 Apr 12 )</li>
+      
+      </ul>
+      </div>
+
+      <!-- Small -->
+      <div class="mb-6 lg:hidden">
+      
+      <h3 class="group text-xl font-semibold text-resume-accent lg:text-resume-dark mb-4 flex items-center">
+      <i class="fas fa-book bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex items-center justify-center mr-3 text-2xl group-hover:scale-150 group-hover:-translate-x-1 transition-transform duration-300"></i>Courses</h3>
+      <ul class="list-none list-inside text-sm space-y-0">
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div>Diploma in English</div>
+            <div>SET Academy</div>
+            <div>2024 Feb - 2024 Sep</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div>Diploma in Information Technology</div>
+            <div>SET Academy</div>
+            <div>2024 Feb - 2024 Sep</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div>Diploma in Microsoft Office</div>
+            <div>SLT eSiphala / Oracle Academy</div>
+            <div>2024 – 2025</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div>Spoken English Cetificate Course</div>
+            <div>Trinity English Language Training Academy</div>
+            <div>2024 – 2025</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div><a href="https://drive.google.com/file/d/1x-IStkhfrzDZnnYnvbm8Cb50hG6rOiK9/view?usp=sharing" target="_blank" class="text-blue-300 hover:no-underline">Preliminary English Certificate Course</a></div>
+            <div>Academy of English Studies</div>
+            <div>2024 Dec 02 – 2025 Jan 22</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div><a href="https://drive.google.com/file/d/1aGupOdFyhydh5zThPhc_htXikvWHfRGx/view?usp=sharing" target="_blank" class="text-blue-300 hover:no-underline">Advanced English Certificate Course</a></div>
+            <div>Academy of English Studies</div>
+            <div>2025 Feb – 2025 Mar</div>
+          </div>
+        </li>
+        
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div>Professional Graphic Design Certificate Course</div>
+            <div>SLT eSiphala / Oracle Academy</div>
+            <div>2024 – 2025</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div>Adobe Illustrator Certificate Course</div>
+            <div>Academy of Graphics</div>
+            <div>2024 – 2025</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div><a href="https://drive.google.com/file/d/1zft5niGoVxgRiDsv6WNmlDFMrf8a1czP/view?usp=sharing" target="_blank" class="text-blue-300 hover:no-underline">Web Design for Beginners Certificate Course</a></div>
+            <div>University of Moratuwa</div>
+            <div>2024 – 2025</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div><a href="https://www.pirple.com/certificates/u4sabdbgjf" target="_blank" class="text-blue-300 hover:no-underline">Front End Fundamental Certificate Course</a></div>
+            <div>Pirple</div>
+            <div>2024 Feb 12 - 2024 Apr 12</div>
+          </div>
+        </li>
+        
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div>C & Java Programming Course</div>
+            <div>Chaagaa Education</div>
+            <div>2024 – 2025</div>
+          </div>
+        </li>
+        
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div><a href="https://coursera.org/share/8e55d8b4f407545aef0fa2b98a568c11" target="_blank" class="text-blue-300 hover:no-underline">Business Analysis Certificate Course</a></div>
+            <div>Coursera Project Network</div>
+            <div>2025 Jan 12 - 2025 Feb 01</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div><a href="https://coursera.org/share/b48d1d50d359477501572e7dd5d80a2c" target="_blank" class="text-blue-300 hover:no-underline">Industrial Risk Management Certificate Course</a></div>
+            <div>Coursera Project Network</div>
+            <div>2025 Feb 12 – Mar 18</div>
+          </div>
+        </li>
+
+        <li class="py-2 flex items-start">
+          <span class="w-6 flex justify-center mt-1">
+            <i class="far fa-dot-circle"></i>
+          </span>
+          <div>
+            <div><a href="https://www.coursera.org/account/accomplishments/certificate/Q6L250KPVN0H" target="_blank" class="text-blue-300 hover:no-underline">Tailwind CSS Certificate Course</a></div>
+            <div>Packt Publishers via Coursera</div>
+            <div>2024 Oct 12 – 2025 Apr 12</div>
+          </div>
+        </li>
+      
+      </ul>
+    </div>
+
+
+    <!-- Education -->
+    <div class="mb-6">
+
+    <h3 class="group text-xl font-semibold text-resume-accent lg:text-resume-dark mb-4 flex items-center">
+    <i class="fa fa-graduation-cap bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex items-center justify-center mr-3 text-2xl group-hover:scale-150 group-hover:-translate-x-1 transition-transform duration-500"></i>Education</h3>
+
+    <div class="text-sm">
+
+      <!-- Advanced Level Examination -->
+      <div><strong>G.C.E Advanced Level Examination 2023 ( 2024 )</strong></div>
+      <div class="grid grid-cols-[190px,15px,1fr] gap-x-1">
+
+        <div class="col-span-3">H / Ruhunu Vijayaba College</div>
+        <div>Index Number</div><div>-</div><div>7185057</div>
+        <div>Chemistry</div><div>-</div><div>A</div>
+        <div>Physics</div><div>-</div><div>B</div>
+        <div>Combined Mathematics</div><div>-</div><div>B</div>
+        <div>General English</div><div>-</div><div>A</div>
+        <div>Common General Test</div><div>-</div><div>072</div>
+        <div>Z Score</div><div>-</div><div>1.6476</div>
+
+      </div>
+
+      <!-- Ordinary Level Examination -->
+      <div class="mt-4"><strong>G.C.E Ordinary Level Examination 2018</strong></div>
+      <div class="grid grid-cols-[190px,15px,1fr] gap-x-1">
+
+        <div class="col-span-3">H / Ruhunu Vijayaba College</div>
+        <div>Index Number</div><div>-</div><div>82075662</div>
+        <div>Mathematics</div><div>-</div><div>A</div>
+        <div>Science</div><div>-</div><div>A</div>
+        <div>English</div><div>-</div><div>A</div>
+        <div>Sinhala</div><div>-</div><div>A</div>
+        <div>Buddhism</div><div>-</div><div>A</div>
+        <div>History</div><div>-</div><div>A</div>
+        <div>ICT</div><div>-</div><div>A</div>
+        <div>Commerce</div><div>-</div><div>A</div>
+        <div>English Literature</div><div>-</div><div>B</div>
+
+      </div>
+
+    </div>
+    </div>
+
+
+    <!-- Activities -->
+    <div class="mb-6">
+
+      <h3 class="group text-xl font-semibold text-resume-accent lg:text-resume-dark mb-4 flex items-center">
+      <i class="fas fa-book-open bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex items-center justify-center mr-3 text-2xl group-hover:scale-150 group-hover:-translate-x-1 transition-transform duration-500"></i>Activities</h3>
+      <ul class="list-none list-inside text-sm space-y-1">
+
+        <li class="py-0.5 lg:hover:py-2 lg:hover:pl-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Participated in chess tournaments including Whole Island Chess Championships</li>
+        <li class="py-0.5 lg:hover:py-2 lg:hover:pl-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Helped organize art exhibitions, commerce days, and IT workshops</li>
+        <li class="py-0.5 lg:hover:py-2 lg:hover:pl-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Tutored math and science to peers and juniors</li>
+        <li class="py-0.5 lg:hover:py-2 lg:hover:pl-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200"><i class="far fa-dot-circle"></i> Assisted university events, project fairs, and innovation showcases</li>
+      
+      </ul>
+    </div>
+
+
+    <!-- Programming Skills -->
+    <div class="mb-6">
+
+    <h3 class="group text-xl font-semibold text-resume-accent lg:text-resume-dark mb-4 flex items-center">
+    <i class="fas fa-code bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex items-center justify-center mr-3 text-2xl group-hover:scale-150 group-hover:-translate-x-1 transition-transform duration-500"></i>Programming Skills</h3>
+        
+      <div class="space-y-4">
+
+        <!-- HTML -->
+        <div class="group lg:hover:py-2 lg:hover:pl-2 lg:hover:pr-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200">
+          <div class="relative mb-1">
+            <span class="block mb-1">HTML</span>
+            <span class="absolute right-0 top-0 text-sm text-white lg:text-blue-600 opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">95%</span>
+          </div>
+          <div class="relative h-1.5 rounded bg-[#34495e] overflow-hidden">
+            <div class="absolute left-0 top-0 h-full rounded bg-gradient-to-r from-[#3498db] to-[#2980b9] animate-[skillLoad_2s_ease-in-out_forwards] lg:group-hover:from-blue-400 lg:group-hover:via-purple-500 lg:group-hover:to-pink-500 transition-all duration-200" style="width: 95%;"></div>
+          </div>
+        </div>
+        
+        <!-- CSS -->
+        <div class="group lg:hover:py-2 lg:hover:pl-2 lg:hover:pr-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200">
+          <div class="relative mb-1">
+            <span class="block mb-1">CSS</span>
+            <span class="absolute right-0 top-0 text-sm text-white lg:text-blue-600 opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">90%</span>
+          </div>
+          <div class="relative h-1.5 rounded bg-[#34495e] overflow-hidden">
+            <div class="absolute left-0 top-0 h-full rounded bg-gradient-to-r from-[#3498db] to-[#2980b9] animate-[skillLoad_2s_ease-in-out_forwards] lg:group-hover:from-blue-400 lg:group-hover:via-purple-500 lg:group-hover:to-pink-500 transition-all duration-200" style="width: 90%;"></div>
+          </div>
+        </div>
+        
+        <!-- Python -->
+        <div class="group lg:hover:py-2 lg:hover:pl-2 lg:hover:pr-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200">
+          <div class="relative mb-1">
+            <span class="block mb-1">Python</span>
+            <span class="absolute right-0 top-0 text-sm text-white lg:text-blue-600 opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">80%</span>
+          </div>
+          <div class="relative h-1.5 rounded bg-[#34495e] overflow-hidden">
+            <div class="absolute left-0 top-0 h-full rounded bg-gradient-to-r from-[#3498db] to-[#2980b9] animate-[skillLoad_2s_ease-in-out_forwards] lg:group-hover:from-blue-400 lg:group-hover:via-purple-500 lg:group-hover:to-pink-500 transition-all duration-200" style="width: 80%;"></div>
+          </div>
+        </div>
+        
+        <!-- Java -->
+        <div class="group lg:hover:py-2 lg:hover:pl-2 lg:hover:pr-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200">
+          <div class="relative mb-1">
+            <span class="block mb-1">Java</span>
+            <span class="absolute right-0 top-0 text-sm text-white lg:text-blue-600 opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">75%</span>
+          </div>
+          <div class="relative h-1.5 rounded bg-[#34495e] overflow-hidden">
+            <div class="absolute left-0 top-0 h-full rounded bg-gradient-to-r from-[#3498db] to-[#2980b9] animate-[skillLoad_2s_ease-in-out_forwards] lg:group-hover:from-blue-400 lg:group-hover:via-purple-500 lg:group-hover:to-pink-500 transition-all duration-200" style="width: 75%;"></div>
+          </div>
+        </div>
+        
+        <!-- C -->
+        <div class="group lg:hover:py-2 lg:hover:pl-2 lg:hover:pr-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200">
+          <div class="relative mb-1">
+            <span class="block mb-1">C</span>
+            <span class="absolute right-0 top-0 text-sm text-white lg:text-blue-600 opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">75%</span>
+          </div>
+          <div class="relative h-1.5 rounded bg-[#34495e] overflow-hidden">
+            <div class="absolute left-0 top-0 h-full rounded bg-gradient-to-r from-[#3498db] to-[#2980b9] animate-[skillLoad_2s_ease-in-out_forwards] lg:group-hover:from-blue-400 lg:group-hover:via-purple-500 lg:group-hover:to-pink-500 transition-all duration-200" style="width: 75%;"></div>
+          </div>
+        </div>
+        
+        <!-- C++ -->
+        <div class="group lg:hover:py-2 lg:hover:pl-2 lg:hover:pr-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200">
+          <div class="relative mb-1">
+            <span class="block mb-1">C++</span>
+            <span class="absolute right-0 top-0 text-sm text-white lg:text-blue-600 opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">75%</span>
+          </div>
+          <div class="relative h-1.5 rounded bg-[#34495e] overflow-hidden">
+            <div class="absolute left-0 top-0 h-full rounded bg-gradient-to-r from-[#3498db] to-[#2980b9] animate-[skillLoad_2s_ease-in-out_forwards] lg:group-hover:from-blue-400 lg:group-hover:via-purple-500 lg:group-hover:to-pink-500 transition-all duration-200" style="width: 75%;"></div>
+          </div>
+        </div>
+        
+        <!-- MySQL -->
+        <div class="group lg:hover:py-2 lg:hover:pl-2 lg:hover:pr-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200">
+          <div class="relative mb-1">
+            <span class="block mb-1">MySQL</span>
+            <span class="absolute right-0 top-0 text-sm text-white lg:text-blue-600 opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">60%</span>
+          </div>
+          <div class="relative h-1.5 rounded bg-[#34495e] overflow-hidden">
+            <div class="absolute left-0 top-0 h-full rounded bg-gradient-to-r from-[#3498db] to-[#2980b9] animate-[skillLoad_2s_ease-in-out_forwards] lg:group-hover:from-blue-400 lg:group-hover:via-purple-500 lg:group-hover:to-pink-500 transition-all duration-200" style="width: 60%;"></div>
+          </div>
+        </div>
+        
+        <!-- Tailwind CSS -->
+        <div class="group lg:hover:py-2 lg:hover:pl-2 lg:hover:pr-2 lg:hover:border-l-[6px] border-transparent lg:hover:border-black lg:hover:rounded-md lg:hover:bg-gray-200 transform lg:hover:translate-x-0.5 transition-all duration-200">
+          <div class="relative mb-1">
+            <span class="block mb-1">Tailwind CSS</span>
+            <span class="absolute right-0 top-0 text-sm text-white lg:text-blue-600 opacity-0 lg:group-hover:opacity-100 transition-opacity duration-200">75%</span>
+          </div>
+          <div class="relative h-1.5 rounded bg-[#34495e] overflow-hidden">
+            <div class="absolute left-0 top-0 h-full rounded bg-gradient-to-r from-[#3498db] to-[#2980b9] animate-[skillLoad_2s_ease-in-out_forwards] lg:group-hover:from-blue-400 lg:group-hover:via-purple-500 lg:group-hover:to-pink-500 transition-all duration-200" style="width: 75%;"></div>
+          </div>
+        </div>
+    
+      </div>
+
+    </div>
+
+
+    <!-- Software Skills -->
+    <div class="mb-6">
+
+    <h3 class="group text-xl font-semibold text-resume-accent lg:text-resume-dark mb-4 flex items-center">
+    <i class="fas fa-bezier-curve bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex items-center justify-center mr-3 text-2xl group-hover:scale-150 group-hover:-translate-x-1 transition-transform duration-500"></i>Software Skills</h3>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+
+    <!-- Illustrator -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 28.26;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Illustrator</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">90%</small>
+    </div>
+
+    <!-- Photoshop -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 70.65;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Photoshop</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">75%</small>
+    </div>
+
+    <!-- CorelDRAW -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 42.39;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">CorelDRAW</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">85%</small>
+    </div>
+
+    <!-- Figma -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 98.91;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Figma</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">65%</small>
+    </div>
+
+    <!-- AutoCAD -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 98.91;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">AutoCAD</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">65%</small>
+    </div>
+
+    <!-- Office -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 42.39;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Office</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">85%</small>
+    </div>
+
+    <!-- Proteus -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 127.17;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Proteus</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">55%</small>
+    </div>
+
+    <!-- Notion -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 14.13;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Notion</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">95%</small>
+    </div>
+
+  </div>
+
+</div>
+
+
+    <!-- Interests -->
+    <div class="mb-6">
+
+    <h3 class="group text-xl font-semibold text-resume-accent lg:text-resume-dark mb-4 flex items-center">
+    <i class="fas fa-star bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex items-center justify-center mr-3 text-2xl group-hover:scale-150 group-hover:-translate-x-1 transition-transform duration-500"></i>Interests</h3>
+    <ul class="flex justify-between flex-wrap gap-6 text-center text-resume-dark">
+
+      <li class="group flex flex-col items-center text-white lg:text-resume-dark w-20">
+        <i class="fas fa-palette text-4xl mb-1 group-hover:scale-125 transition-transform duration-300"></i>
+        <span class="lg:text-black lg:group-hover:text-resume-dark">Art</span>
+      </li>
+
+      <li class="group flex flex-col items-center text-white lg:text-resume-dark w-20">
+        <i class="fas fa-book text-4xl mb-1 group-hover:scale-125 transition-transform duration-300"></i>
+        <span class="lg:text-black lg:group-hover:text-resume-dark">Books</span>
+      </li>
+
+      <li class="group flex flex-col items-center text-white lg:text-resume-dark w-20">
+        <i class="fas fa-film text-4xl mb-1 group-hover:scale-125 transition-transform duration-300"></i>
+        <span class="lg:text-black lg:group-hover:text-resume-dark">Movies</span>
+      </li>
+
+      <li class="group flex flex-col items-center text-white lg:text-resume-dark w-20">
+        <i class="fas fa-headphones text-4xl mb-1 group-hover:scale-125 transition-transform duration-300"></i>
+        <span class="lg:text-black lg:group-hover:text-resume-dark">Music</span>
+      </li>
+
+      <li class="group flex flex-col items-center text-white lg:text-resume-dark w-20">
+        <i class="fas fa-gamepad text-4xl mb-1 group-hover:scale-125 transition-transform duration-300"></i>
+        <span class="lg:text-black lg:group-hover:text-resume-dark">Games</span>
+      </li>
+
+      <li class="group flex flex-col items-center text-white lg:text-resume-dark w-20">
+        <i class="fa-solid fa-chess-bishop text-4xl mb-1 group-hover:scale-125 transition-transform duration-300"></i>
+        <span class="lg:text-black lg:group-hover:text-resume-dark">Chess</span>
+      </li>
+
+    </ul>
+    </div>
+
+
+    <!-- Skills Summary -->
+    <div class="mb-6">
+
+    <h3 class="group text-xl font-semibold text-resume-accent lg:text-resume-dark mb-4 flex items-center">
+    <i class="fas fa-chart-pie bg-resume-accent text-resume-dark w-12 h-12 rounded-full flex items-center justify-center mr-3 text-2xl group-hover:scale-150 group-hover:-translate-x-1 transition-transform duration-500"></i>Skills Summary</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-sm">
+        
+    <!-- Adaptability -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 42.39;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Adaptability</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">85%</small>
+    </div>
+
+    <!-- Creativity -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 28.26;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Creativity</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">90%</small>
+    </div>
+
+    <!-- Management -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 14.13;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Management</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">95%</small>
+    </div>
+
+    <!-- Leadership -->
+    <div class="group relative text-center">
+      <svg viewBox="0 0 100 100" class="w-full max-w-[100px] mx-auto rotate-[-90deg] transform scale-125">
+        <circle cx="50" cy="50" r="45" class="stroke-white lg:stroke-black stroke-[1] fill-none" />
+        <circle cx="50" cy="50" r="45" class="cbar stroke-resume-accent stroke-[3] fill-none stroke-linecap-round group-hover:stroke-blue-400 transition-transform duration-300" style="stroke-dasharray: 282.6; stroke-dashoffset: 42.39;" />
+      </svg>
+      <span class="absolute w-full top-[38%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 transition-transform duration-300">Leadership</span>
+      <small class="absolute w-full top-[52%] left-0 lg:text-black lg:font-semibold group-hover:scale-125 group-hover:translate-y-1 transition-transform duration-300">85%</small>
+    </div>
+      
+    </div>
+    </div>
+
+    </div>
+    
+  </div>
+</body>
+
+</html>
